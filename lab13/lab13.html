@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+.inlineStyle{
+display: inline-block;
+width: 200px;
+padding: 10px;
+}
+.blockStyle{
+display: block;
+}
+.hidden{
+/*dsiplay: none; */
+visibility: hidden;
+}
+.inlineBlock{
+display: inline-block;
+width: 200px;
+height: 200px;
+background-color: yellow;
+}
+.inlineS{
+display: inline;
+width: 200px;
+height 200px;
+background-color: yellow;
+}
+.blockS{
+display: block;
+width: 200px;
+height: 200px;
+background-color: yellow;
+}
+</style>
+</head>
+<body>
+1.Display a list of links in horizontal menu:
+<ul style="background-color: azure;">
+<li class="inlineStyle">
+<a href="https://www.w3schools.com/html/">
+HTML Reference
+</a>
+<li class="inlineStyle">
+<a href="https://www.w3schools.com/css/">
+CSS Reference
+</a>
+<li class="inlineStyle">
+<a href="https://www.w3schools.com/js/">
+Javascript Reference
+</a>
+</li>
+</ul>
+<p> 2. Display links as a block element: </p>
+<a class="blockStyle" href="https://www.w3schools.com/html/">
+HTML Reference
+</a>
+<a class="blockStyle" href="https://www.w3schools.com/css/">
+CSS Reference
+</a>
+<a class="blockStyle" href="https://www.w3schools.com/js/">
+Javascript Reference
+</a>
+<h1 class="hidden" This text should be hidden> </h1>
+Lorem Ipsum is <span class="inlineBlock">simply dummy </span> text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when <span class="inlineS">an unknown </span> printer took a galley of type and scrambled it to make a type specimen book. It has survived not only <span class="blockS">five centuries</span>, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</body>
+</html>
+
+
+
